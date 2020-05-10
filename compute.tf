@@ -1,3 +1,15 @@
+provider "azurerm" {
+subscription_id = ""
+client_id = ""
+client_secret = ""
+tenant_id = ""
+features {}
+
+}
+
+
+
+
 resource "azurerm_resource_group" "ataz300rg" {
   name     = "ataz300rg"
   location = "Australia SouthEast"
